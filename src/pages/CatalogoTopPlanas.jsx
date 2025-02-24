@@ -9,7 +9,7 @@ function CatalogoTopPlanas() {
     const itemsPerPage = 20;
 
     const handleClick = (id, image, precio) => {
-        const mensaje = `Hola, quiero comprar de la Categoria TOP QUALITY 1.1 (CURVAS) el modelo ${id}, imagen del producto: ${image} por ${precio}$ por favor.`;
+        const mensaje = `Hola, quiero comprar de la Categoría TOP QUALITY 1.1 (PLANAS) el modelo ${id}, imagen del producto: ${encodeURIComponent('https://stylecapshop.vercel.app/' + image)} por ${precio}$ por favor.`;
         const url = `https://wa.me/584261654744?text=${encodeURIComponent(mensaje)}`;
         window.open(url, '_blank');
     }

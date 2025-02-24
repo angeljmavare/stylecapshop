@@ -9,7 +9,7 @@ function Catalogo3AAlevates() {
     const itemsPerPage = 20;
 
     const handleClick = (id, precio, image) => {
-        const mensaje = `Hola, quiero comprar de la Categoria TOP QUALITY 1.1 (ALEVATES) el modelo ${id} por ${precio}$. Imagen del producto: ${image}`;
+        const mensaje = `Hola, quiero comprar de la Categoría AAA (ALEVATES) el modelo ${id}, imagen del producto: ${encodeURIComponent('https://stylecapshop.vercel.app/' + image)} por ${precio}$ por favor.`;
         const url = `https://wa.me/584261654744?text=${encodeURIComponent(mensaje)}`;
         window.open(url, '_blank');
     }
