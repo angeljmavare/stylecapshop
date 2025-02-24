@@ -9,7 +9,7 @@ function Catalogo3AKtmFox() {
     const itemsPerPage = 20;
 
     const handleClick = (id, image, precio) => {
-        const mensaje = `Hola, quiero comprar de la Categoría AAA (KTM FOX) el modelo ${id}, imagen del producto: ${encodeURIComponent('https://stylecapshop.vercel.app/' + image)} por ${precio}$ por favor.`;
+        const mensaje = `Hola, quiero comprar de la Categoría AAA (KTM FOX) el modelo ${id}, imagen del producto: https://stylecapshop.vercel.app/${image} por ${precio}$ por favor.`;
         const url = `https://wa.me/584261654744?text=${encodeURIComponent(mensaje)}`;
         window.open(url, '_blank');
     }
