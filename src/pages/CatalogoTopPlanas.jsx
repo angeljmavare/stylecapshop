@@ -5,6 +5,11 @@ import { ListaGorrasTopPlanas } from '../helpers/ListaGorrasTopPlanas';
 import { Link } from "react-router-dom";
 
 function CatalogoTopPlanas() {
+    const handleOpenImage = (image) => {
+        const imageUrl = `https://stylecapshop.vercel.app/${image}`;
+        window.open(imageUrl, '_blank');
+    };
+
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 20;
 
@@ -67,10 +72,9 @@ function CatalogoTopPlanas() {
                     <div key={key} className="contenedorcat-item">
                         <h2>Modelo: {val.id}</h2>
                         <center>
-                            <img className='image' src={val.image} alt={val.id} />
-                        </center>
+                            <img className='image' src={val.image} alt={val.id} onClick={() => handleOpenImage(val.image)} />                        </center>
                         <p>${val.precio}</p>
-                        <button className='button-solicitar' onClick={() => handleClick(val.id,val.image, val.precio)}>Solicitar</button>
+                        <button className='button-solicitar' onClick={() => handleClick(val.id, val.image, val.precio)}>Solicitar</button>
                     </div>
                 ))}
             </div>

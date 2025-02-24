@@ -33,6 +33,7 @@
     height: 150px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .contenedorcat-item .imagen {
