@@ -28,10 +28,10 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="leftSide" id={openLinks ? "open" : "close"}>
-                <Link to="/"><img src={Logo}/></Link>
+                <Link to="/"><img src={Logo} alt=""/></Link>
                 <div className="hiddenLinks">
                     <Link to="/"> Principal </Link>
-                    <Link to="/nosotros"> Nosotros </Link>
+                    {/* <Link to="/nosotros"> Nosotros </Link> */}
                     <Link to="/catalogo"> Catalogo </Link>
                     <Link to="/contacto"> Contacto </Link>
                 </div>
@@ -39,7 +39,7 @@ function Navbar() {
             <div className="rightSide">
                 <div>
                     <Link to="/"> Principal </Link>
-                    <Link to="/nosotros"> Nosotros </Link>
+                    {/* <Link to="/nosotros"> Nosotros </Link> */}
                     <Link to="/catalogo"> Catalogo </Link>
                     <Link to="/contacto"> Contacto </Link>
                 </div>
