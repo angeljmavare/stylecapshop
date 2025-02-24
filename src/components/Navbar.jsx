@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.webp";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";

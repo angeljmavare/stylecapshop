@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerImage from '../assets/background2.jpg'
+import BannerImage from '../assets/background2.webp'
 import '../styles/Nosotros.css'
 
 function Nosotros() {

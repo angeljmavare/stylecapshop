@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Catalogo.css';
-import BannerImage from '../assets/background2.jpg';
+import BannerImage from '../assets/background2.webp'
 import { ListaGorras3ALacosteHugo } from '../helpers/ListaGorras3ALacosteHugo';
 import { Link } from "react-router-dom";
 

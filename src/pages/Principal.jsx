@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Principal.css'
 import { Link } from 'react-router-dom'
-import BannerImage from '../assets/background2.jpg'
+import BannerImage from '../assets/background2.webp'
 
 function Principal() {
   return (

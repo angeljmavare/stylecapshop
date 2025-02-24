@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Contacto.css'
-import BannerImage from '../assets/background2.jpg'
+import BannerImage from '../assets/background2.webp'
 import { FaSquareWhatsapp, FaSquareInstagram } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Catalogo.css'
-import BannerImage from '../assets/background2.jpg'
+import BannerImage from '../assets/background2.webp'
 import imagentopcurvas from '../assets/topcurvas.jpg'
 import imagentopcerradas from '../assets/topcerradas.jpg'
 import imagentopmultimarcas from '../assets/topmultimarcas.jpg'
