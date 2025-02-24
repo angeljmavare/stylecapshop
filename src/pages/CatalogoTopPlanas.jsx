@@ -3,6 +3,7 @@ import '../styles/Catalogo.css';
 import BannerImage from '../assets/background2.webp'
 import { ListaGorrasTopPlanas } from '../helpers/ListaGorrasTopPlanas';
 import { Link } from "react-router-dom";
+import LoadingImage from '../components/LoadingImage';
 
 function CatalogoTopPlanas() {
     const handleOpenImage = (image) => {
@@ -72,7 +73,12 @@ function CatalogoTopPlanas() {
                     <div key={key} className="contenedorcat-item">
                         <h2>Modelo: {val.id}</h2>
                         <center>
-                            <img className='image' src={val.image} alt={val.id} onClick={() => handleOpenImage(val.image)} />                        </center>
+                            <LoadingImage
+                                src={val.image}
+                                alt={val.id}
+                                onClick={() => handleOpenImage(val.image)}
+                            />
+                        </center>
                         <p>${val.precio}</p>
                         <button className='button-solicitar' onClick={() => handleClick(val.id, val.image, val.precio)}>Solicitar</button>
                     </div>

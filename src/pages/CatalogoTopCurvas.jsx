@@ -4,7 +4,7 @@ import '../styles/Catalogo.css';
 import BannerImage from '../assets/background2.webp';
 import { ListaGorrasTopCurvas } from '../helpers/ListaGorrasTopCurvas';
 import { Link } from "react-router-dom";
-import LoadingImage from '../components/LoadingImage'; // Importar el componente LoadingImage
+import LoadingImage from '../components/LoadingImage'; 
 
 function CatalogoTopCurvas() {
     const handleOpenImage = (image) => {

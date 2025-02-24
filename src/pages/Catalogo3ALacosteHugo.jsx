@@ -3,6 +3,7 @@ import '../styles/Catalogo.css';
 import BannerImage from '../assets/background2.webp'
 import { ListaGorras3ALacosteHugo } from '../helpers/ListaGorras3ALacosteHugo';
 import { Link } from "react-router-dom";
+import LoadingImage from '../components/LoadingImage';
 
 function Catalogo3ALacosteHugo() {
     const handleOpenImage = (image) => {
@@ -72,7 +73,11 @@ function Catalogo3ALacosteHugo() {
                     <div key={key} className="contenedorcat-item">
                         <h2>Modelo: {val.id}</h2>
                         <center>
-                            <img className='image' src={val.image} alt={val.id} onClick={() => handleOpenImage(val.image)} />
+                        <LoadingImage
+                                src={val.image}
+                                alt={val.id}
+                                onClick={() => handleOpenImage(val.image)}
+                            />
                         </center>
                         <p>${val.precio}</p>
                         <button className='button-solicitar' onClick={() => handleClick(val.id, val.image, val.precio)}>Solicitar</button>
