@@ -20,6 +20,7 @@ import imagen3AVzla from '../assets/3Avzla.webp'
 import imagen3ALacoste from '../assets/3Alacoste.webp'
 import imagen3ABurberry from '../assets/3Aburberry.webp'
 import imagen3AWescolt from '../assets/3Awescolt.webp'
+import imagen3AFe from '../assets/3Afe.webp'
 import { Link } from "react-router-dom";
 
 function Catalogo() {
@@ -75,7 +76,6 @@ function Catalogo() {
           </Link>
         </div>
       </div>
-
 
 
       <center>
@@ -230,6 +230,16 @@ function Catalogo() {
             <img className='imagen' src={imagen3AWescolt} alt='' />
           </center>
           <Link to="/catalogoaaawescoltyamiri">
+            <button className='button-solicitar'>Ver más</button>
+          </Link>
+        </div>
+
+        <div className="contenedorcat-item ">
+          <h2>FE</h2>
+          <center>
+            <img className='imagen' src={imagen3AFe} alt='' />
+          </center>
+          <Link to="/catalogoaaafe">
             <button className='button-solicitar'>Ver más</button>
           </Link>
         </div>

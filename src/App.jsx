@@ -25,6 +25,7 @@ import CatalogoAaaVzla from './pages/Catalogo3AVzla';
 import CatalogoAaaLacosteHugoBoss from './pages/Catalogo3ALacosteHugo';
 import CatalogoAaaBurberryMonastery from './pages/Catalogo3ABurberryMonastery';
 import CatalogoAaaWescolAmiri from './pages/Catalogo3AWescoltAmiri';
+import CatalogoAaaFe from './pages/Catalogo3AFe';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
           <Route path="/catalogoaaalacostehugoboss" element={<CatalogoAaaLacosteHugoBoss />} />
           <Route path="/catalogoaaaburberrymonastery" element={<CatalogoAaaBurberryMonastery />} />
           <Route path="/catalogoaaawescoltyamiri" element={<CatalogoAaaWescolAmiri />} />
+          <Route path="/catalogoaaafe" element={<CatalogoAaaFe />} />
         </Routes>
         <Footer />
       </Router>
