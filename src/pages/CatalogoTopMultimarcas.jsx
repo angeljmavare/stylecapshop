@@ -7,7 +7,7 @@ import LoadingImage from '../components/LoadingImage';
 
 function CatalogoTopMultimarcas() {
     const handleOpenImage = (image) => {
-        const imageUrl = `https://stylecapshop.vercel.app/${image}`; 
+        const imageUrl = `https://stylecapshop.vercel.app/${image}`;
         window.open(imageUrl, '_blank');
     };
 
@@ -73,7 +73,7 @@ function CatalogoTopMultimarcas() {
                     <div key={key} className="contenedorcat-item">
                         <h2>Modelo: {val.id}</h2>
                         <center>
-                            <img className='image' src={val.image} alt={val.id} onClick={() => handleOpenImage(val.image)} /><LoadingImage
+                            <LoadingImage
                                 src={val.image}
                                 alt={val.id}
                                 onClick={() => handleOpenImage(val.image)}
