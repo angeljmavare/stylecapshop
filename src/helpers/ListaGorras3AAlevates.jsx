@@ -86,6 +86,17 @@ import img85 from '../assets/aaa/alevates/img85.jpg';
 import img86 from '../assets/aaa/alevates/img86.jpg';    
 import img87 from '../assets/aaa/alevates/img87.jpg';    
 import img88 from '../assets/aaa/alevates/img88.jpg'; 
+import img89 from '../assets/aaa/alevates/img89.png';
+import img90 from '../assets/aaa/alevates/img90.png';
+import img91 from '../assets/aaa/alevates/img91.png';
+import img92 from '../assets/aaa/alevates/img92.png';
+import img93 from '../assets/aaa/alevates/img93.png';
+import img94 from '../assets/aaa/alevates/img94.png';
+import img95 from '../assets/aaa/alevates/img95.png';
+import img96 from '../assets/aaa/alevates/img96.png';
+import img97 from '../assets/aaa/alevates/img97.png';
+import img98 from '../assets/aaa/alevates/img98.png';
+import img99 from '../assets/aaa/alevates/img99.png';
 
 export const ListaGorras3AAlevates = [
     {
@@ -527,5 +538,60 @@ export const ListaGorras3AAlevates = [
         id: 88, 
         precio: 15, 
         image: img88,
-    },     
+    },
+    {
+        id: 89, 
+        precio: 15, 
+        image: img89,
+    },    
+    {
+        id: 90, 
+        precio: 15, 
+        image: img90,
+    },    
+    {
+        id: 91, 
+        precio: 15, 
+        image: img91,
+    },    
+    {
+        id: 92, 
+        precio: 15, 
+        image: img92,
+    },    
+    {
+        id: 93, 
+        precio: 15, 
+        image: img93,
+    },    
+    {
+        id: 94, 
+        precio: 15, 
+        image: img94,
+    },    
+    {
+        id: 95, 
+        precio: 15, 
+        image: img95,
+    },    
+    {
+        id: 96, 
+        precio: 15, 
+        image: img96,
+    },    
+    {
+        id: 97, 
+        precio: 15, 
+        image: img97,
+    },    
+    {
+        id: 98, 
+        precio: 15, 
+        image: img98,
+    },    
+    {
+        id: 99, 
+        precio: 15, 
+        image: img99,
+    },
 ];

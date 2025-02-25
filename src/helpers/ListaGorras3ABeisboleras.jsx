@@ -307,6 +307,24 @@ import img306 from '../assets/aaa/beisboleras/img306.jpg';
 import img307 from '../assets/aaa/beisboleras/img307.jpg';
 import img308 from '../assets/aaa/beisboleras/img308.jpg';
 import img309 from '../assets/aaa/beisboleras/img309.jpg';
+import img310 from '../assets/aaa/beisboleras/img310.png';
+import img311 from '../assets/aaa/beisboleras/img311.png';
+import img312 from '../assets/aaa/beisboleras/img312.png';
+import img313 from '../assets/aaa/beisboleras/img313.png';
+import img314 from '../assets/aaa/beisboleras/img314.png';
+import img315 from '../assets/aaa/beisboleras/img315.png';
+import img316 from '../assets/aaa/beisboleras/img316.png';
+import img317 from '../assets/aaa/beisboleras/img317.png';
+import img318 from '../assets/aaa/beisboleras/img318.png';
+import img319 from '../assets/aaa/beisboleras/img319.png';
+import img320 from '../assets/aaa/beisboleras/img320.png';
+import img321 from '../assets/aaa/beisboleras/img321.png';
+import img322 from '../assets/aaa/beisboleras/img322.png';
+import img323 from '../assets/aaa/beisboleras/img323.png';
+import img324 from '../assets/aaa/beisboleras/img324.png';
+import img325 from '../assets/aaa/beisboleras/img325.png';
+import img326 from '../assets/aaa/beisboleras/img326.png';
+import img327 from '../assets/aaa/beisboleras/img327.jpg';
 
 export const ListaGorras3ABeisboleras = [
     { id: 1, image: img01, precio: 15 },
@@ -618,4 +636,22 @@ export const ListaGorras3ABeisboleras = [
     { id: 307, image: img307, precio: 15 },
     { id: 308, image: img308, precio: 15 },
     { id: 309, image: img309, precio: 15 },
+    { id: 310, image: img310, precio: 15 },
+    { id: 311, image: img311, precio: 15 },
+    { id: 312, image: img312, precio: 15 },
+    { id: 313, image: img313, precio: 15 },
+    { id: 314, image: img314, precio: 15 },
+    { id: 315, image: img315, precio: 15 },
+    { id: 316, image: img316, precio: 15 },
+    { id: 317, image: img317, precio: 15 },
+    { id: 318, image: img318, precio: 15 },
+    { id: 319, image: img319, precio: 15 },
+    { id: 320, image: img320, precio: 15 },
+    { id: 321, image: img321, precio: 15 },
+    { id: 322, image: img322, precio: 15 },
+    { id: 323, image: img323, precio: 15 },
+    { id: 324, image: img324, precio: 15 },
+    { id: 325, image: img325, precio: 15 },
+    { id: 326, image: img326, precio: 15 },
+    { id: 327, image: img327, precio: 15 },
 ];

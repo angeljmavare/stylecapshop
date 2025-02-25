@@ -31,6 +31,18 @@ import img30 from '../assets/aaa/corral/img30.jpg';
 import img31 from '../assets/aaa/corral/img31.jpg';
 import img32 from '../assets/aaa/corral/img32.jpg';
 import img33 from '../assets/aaa/corral/img33.jpg';
+import img34 from '../assets/aaa/corral/img34.jpg';
+import img35 from '../assets/aaa/corral/img35.jpg';
+import img36 from '../assets/aaa/corral/img36.jpg';
+import img37 from '../assets/aaa/corral/img37.jpg';
+import img38 from '../assets/aaa/corral/img38.jpg';
+import img39 from '../assets/aaa/corral/img39.jpg';
+import img40 from '../assets/aaa/corral/img40.jpg';
+import img41 from '../assets/aaa/corral/img41.jpg';
+import img42 from '../assets/aaa/corral/img42.jpg';
+import img43 from '../assets/aaa/corral/img43.jpg';
+import img44 from '../assets/aaa/corral/img44.jpg';
+import img45 from '../assets/aaa/corral/img45.jpg';
 
 export const ListaGorras3ACorral = [
     { id: 1, image: img01, precio: 15 },
@@ -66,4 +78,16 @@ export const ListaGorras3ACorral = [
     { id: 31, image: img31, precio: 15 },
     { id: 32, image: img32, precio: 15 },
     { id: 33, image: img33, precio: 15 },
+    { id: 34, image: img34, precio: 15 },
+    { id: 35, image: img35, precio: 15 },
+    { id: 36, image: img36, precio: 15 },
+    { id: 37, image: img37, precio: 15 },
+    { id: 38, image: img38, precio: 15 },
+    { id: 39, image: img39, precio: 15 },
+    { id: 40, image: img40, precio: 15 },    
+    { id: 41, image: img41, precio: 15 },
+    { id: 42, image: img42, precio: 15 },
+    { id: 43, image: img43, precio: 15 },
+    { id: 44, image: img44, precio: 15 },
+    { id: 45, image: img45, precio: 15 },
 ];

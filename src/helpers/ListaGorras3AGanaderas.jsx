@@ -94,6 +94,34 @@ import img93 from '../assets/aaa/ganaderas/img93.jpg';
 import img94 from '../assets/aaa/ganaderas/img94.jpg';
 import img95 from '../assets/aaa/ganaderas/img95.jpg';
 import img96 from '../assets/aaa/ganaderas/img96.jpg';
+import img97 from '../assets/aaa/ganaderas/img97.jpg';
+import img98 from '../assets/aaa/ganaderas/img98.jpg';
+import img99 from '../assets/aaa/ganaderas/img99.jpg';
+import img100 from '../assets/aaa/ganaderas/img100.jpg';
+import img101 from '../assets/aaa/ganaderas/img101.jpg';
+import img102 from '../assets/aaa/ganaderas/img102.jpg';
+import img103 from '../assets/aaa/ganaderas/img103.jpg';
+import img104 from '../assets/aaa/ganaderas/img104.jpg';
+import img105 from '../assets/aaa/ganaderas/img105.jpg';
+import img106 from '../assets/aaa/ganaderas/img106.jpg';
+import img107 from '../assets/aaa/ganaderas/img107.jpg';
+import img108 from '../assets/aaa/ganaderas/img108.jpg';
+import img109 from '../assets/aaa/ganaderas/img109.jpg';
+import img110 from '../assets/aaa/ganaderas/img110.jpg';
+import img111 from '../assets/aaa/ganaderas/img111.jpg';
+import img112 from '../assets/aaa/ganaderas/img112.jpg';
+import img113 from '../assets/aaa/ganaderas/img113.jpg';
+import img114 from '../assets/aaa/ganaderas/img114.jpg';
+import img115 from '../assets/aaa/ganaderas/img115.jpg';
+import img116 from '../assets/aaa/ganaderas/img116.jpg';
+import img117 from '../assets/aaa/ganaderas/img117.jpg';
+import img118 from '../assets/aaa/ganaderas/img118.jpg';
+import img119 from '../assets/aaa/ganaderas/img119.jpg';
+import img120 from '../assets/aaa/ganaderas/img120.jpg';
+import img121 from '../assets/aaa/ganaderas/img121.jpg';
+import img122 from '../assets/aaa/ganaderas/img122.jpg';
+import img123 from '../assets/aaa/ganaderas/img123.jpg';
+import img124 from '../assets/aaa/ganaderas/img124.jpg';
 
 export const ListaGorras3AGanaderas = [
     { id: 1, image: img01, precio: 15 },
@@ -192,4 +220,32 @@ export const ListaGorras3AGanaderas = [
     { id: 94, image: img94, precio: 15 },
     { id: 95, image: img95, precio: 15 },
     { id: 96, image: img96, precio: 15 },
+    { id: 97, image: img97, precio: 15 },
+    { id: 98, image: img98, precio: 15 },
+    { id: 99, image: img99, precio: 15 },
+    { id: 100, image: img100, precio: 15 },
+    { id: 101, image: img101, precio: 15 },
+    { id: 102, image: img102, precio: 15 }, 
+    { id: 103, image: img103, precio: 15 }, 
+    { id: 104, image: img104, precio: 15 }, 
+    { id: 105, image: img105, precio: 15 }, 
+    { id: 106, image: img106, precio: 15 }, 
+    { id: 107, image: img107, precio: 15 }, 
+    { id: 108, image: img108, precio: 15 }, 
+    { id: 109, image: img109, precio: 15 }, 
+    { id: 110, image: img110, precio: 15 }, 
+    { id: 111, image: img111, precio: 15 }, 
+    { id: 112, image: img112, precio: 15 }, 
+    { id: 113, image: img113, precio: 15 }, 
+    { id: 114, image: img114, precio: 15 }, 
+    { id: 115, image: img115, precio: 15 }, 
+    { id: 116, image: img116, precio: 15 }, 
+    { id: 117, image: img117, precio: 15 }, 
+    { id: 118, image: img118, precio: 15 }, 
+    { id: 119, image: img119, precio: 15 }, 
+    { id: 120, image: img120, precio: 15 }, 
+    { id: 121, image: img121, precio: 15 }, 
+    { id: 122, image: img122, precio: 15 }, 
+    { id: 123, image: img123, precio: 15 }, 
+    { id: 124, image: img124, precio: 15 },
 ];
